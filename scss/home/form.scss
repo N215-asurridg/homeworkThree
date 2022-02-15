@@ -1,0 +1,128 @@
+.form {
+  max-width: $homeformwidth;
+  // background-color: lightgreen;
+  min-height: 200px;
+  margin: $center;
+
+  h1 {
+    font-family: Nova;
+    font-size: 60px;
+  }
+
+  .topboxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    .name-country-input {
+      @include forminput;
+    }
+
+    .email-hotel-input {
+      @include forminput(453px);
+    }
+  }
+
+  .check-in-out {
+    .in-out {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+      label {
+        font-family: Gils;
+        font-size: 18px;
+      }
+
+      .in-out-input-icon {
+        position: relative;
+        display: flex;
+        align-items: center;
+        background-color: aqua;
+        input {
+          @include forminput(698px);
+        }
+
+        i {
+          position: absolute;
+          right: 10px;
+          font-size: 20px;
+          color: $siteblue;
+        }
+      }
+    }
+  }
+
+  .acr-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .adult-child-room {
+    width: 206px;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    label {
+      font-family: Gils;
+      font-size: 18px;
+    }
+
+    .adult-input-icon {
+      width: 103px;
+      height: 58px;
+      position: relative;
+      display: flex;
+      align-items: center;
+
+      input {
+        @include forminput(103px);
+      }
+
+      i {
+        position: absolute;
+        right: 10px;
+        font-size: 20px;
+        color: $siteblue;
+      }
+    }
+  }
+
+  .messagebox {
+    margin-bottom: 37px;
+    input {
+      width: 818px;
+      height: 192px;
+      border: 3px solid $siteblue;
+      padding: 0 0 0 10px;
+    }
+  }
+
+  .submit {
+    width: 813px;
+    height: 60px;
+    background-color: $siteblue;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+
+    h3 {
+      padding-top: 20px;
+      color: $sitewhite;
+      font-family: Gils;
+      font-size: 15px;
+    }
+  }
+}

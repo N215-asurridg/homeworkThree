@@ -1,0 +1,46 @@
+.banner {
+  max-width: $sitewidth;
+  height: $bannerheight;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/hero.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -85px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .banner-text {
+    text-align: center;
+
+    .travel-fly {
+      color: white;
+      font-family: Nova;
+      font-size: 50px;
+    }
+
+    .bannerparagraph {
+      margin-top: 26px;
+      margin-bottom: 50px;
+      color: $sitewhite;
+      font-family: Gils;
+      font-size: 20px;
+    }
+
+    .read-more {
+      height: 40px;
+      width: 121px;
+      background-color: $siteblue;
+      margin: 0 auto;
+
+      h3 {
+        font-size: 15px;
+        color: white;
+        padding-top: 12px;
+        font-family: Gils;
+      }
+    }
+  }
+}

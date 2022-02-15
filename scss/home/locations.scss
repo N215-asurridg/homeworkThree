@@ -1,0 +1,131 @@
+.locations {
+  max-width: 818px;
+  min-height: 304px;
+  // background-color: aquamarine;
+  margin: $center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -43px;
+  margin-bottom: 40px;
+
+  .israel {
+    width: 236px;
+    height: 304px;
+    background-color: bisque;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/tour/tour-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .israeltext {
+      width: 130px;
+      height: 152px;
+      margin: 0 auto;
+      text-align: center;
+      color: white;
+      padding-top: 47px;
+      margin-bottom: 56px;
+      font-family: Nova;
+      font-size: 30px;
+      h2 {
+        font-size: 25px;
+      }
+    }
+
+    .learnmore {
+      @include learnmore;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      h3 {
+        padding-top: 16px;
+        color: white;
+        font-family: Gils;
+        font-size: 13px;
+      }
+    }
+  }
+
+  .usa {
+    width: 236px;
+    height: 304px;
+    background-color: bisque;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/tour/tour-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .israeltext {
+      width: 130px;
+      height: 152px;
+      margin: 0 auto;
+      text-align: center;
+      color: white;
+      padding-top: 47px;
+      margin-bottom: 56px;
+      font-family: Nova;
+      font-size: 30px;
+      h2 {
+        font-size: 25px;
+      }
+    }
+
+    .learnmore {
+      @include learnmore;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      h3 {
+        padding-top: 16px;
+        color: white;
+        font-family: Gils;
+        font-size: 13px;
+      }
+    }
+  }
+
+  .australia {
+    width: 236px;
+    height: 304px;
+    background-color: bisque;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/tour/tour-03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .israeltext {
+      width: 130px;
+      height: 152px;
+      margin: 0 auto;
+      text-align: center;
+      color: white;
+      padding-top: 47px;
+      margin-bottom: 56px;
+      font-family: Nova;
+      font-size: 30px;
+      h2 {
+        font-size: 25px;
+      }
+    }
+
+    .learnmore {
+      @include learnmore;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      h3 {
+        padding-top: 16px;
+        color: white;
+        font-family: Gils;
+        font-size: 13px;
+      }
+    }
+  }
+}

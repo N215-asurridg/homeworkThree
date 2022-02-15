@@ -1,0 +1,13 @@
+@mixin forminput($width: 344px, $padding: 0 0 0 10px) {
+  width: $width;
+  height: 58px;
+  border: 3px solid $siteblue;
+  padding: $padding;
+}
+
+@mixin learnmore {
+  width: 133px;
+  height: 40px;
+  background-color: $siteblue;
+  border-radius: 20px;
+}
