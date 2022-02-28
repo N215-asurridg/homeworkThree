@@ -336,7 +336,7 @@ nav .links span {
 }
 
 footer {
-  width: 1280px;
+  max-width: 1280px;
   height: 100px;
   background-color: #79addc;
   margin: 0 auto;
