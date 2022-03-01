@@ -25,6 +25,14 @@
     }
   }
 
+  @media screen (max-width: 797px) {
+    .topboxes {
+      width: 500px;
+      flex-direction: column;
+      min-height: 940px;
+    }
+  }
+
   .check-in-out {
     .in-out {
       display: flex;
